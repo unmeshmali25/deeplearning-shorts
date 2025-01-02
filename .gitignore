@@ -1,0 +1,26 @@
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+rlhf-env/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore pipenv and poetry files
+Pipfile
+Pipfile.lock
+poetry.lock
+pyproject.toml
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore other unwanted files
+*.log
+*.tmp
